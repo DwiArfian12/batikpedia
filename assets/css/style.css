@@ -3,6 +3,10 @@ body {
   color: #444444;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
 a {
   color: #EFCFA0;
   text-decoration: none;
@@ -11,10 +15,6 @@ a {
 a:hover {
   color: #EFCFA0;
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 .back-to-top {
