@@ -3,10 +3,6 @@ body {
   color: #444444;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
-
 a {
   color: #EFCFA0;
   text-decoration: none;
@@ -15,6 +11,10 @@ a {
 a:hover {
   color: #EFCFA0;
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
 }
 
 .back-to-top {
@@ -310,7 +310,7 @@ a:hover {
   display: block;
 }
 
-#hero {
+#beranda {
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -319,7 +319,7 @@ a:hover {
   padding: 0;
 }
 
-#hero .carousel-container {
+#beranda .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,27 +330,27 @@ a:hover {
   padding-top: 60px;
 }
 
-#hero h2 {
+#beranda h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#hero h3 {
+#beranda h3 {
   width: 80%;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
 }
 
-#hero .carousel-control-prev,
-#hero .carousel-control-next {
+#beranda .carousel-control-prev,
+#beranda .carousel-control-next {
   width: 10%;
 }
 
-#hero .carousel-control-next-icon,
-#hero .carousel-control-prev-icon {
+#beranda .carousel-control-next-icon,
+#beranda .carousel-control-prev-icon {
   background: none;
   font-size: 48px;
   line-height: 1;
@@ -358,7 +358,7 @@ a:hover {
   height: auto;
 }
 
-#hero .btn-get-started {
+#beranda .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -378,13 +378,13 @@ a:hover {
   font-weight: 700;
 }
 
-#hero .btn-get-started:hover {
+#beranda .btn-get-started:hover {
   background: transparent;
   color: #fff;
   text-decoration: none;
 }
 
-#hero .btn-get-started-b {
+#beranda .btn-get-started-b {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -402,29 +402,29 @@ a:hover {
   font-weight: 700;
 }
 
-#hero .btn-get-started-b:hover {
+#beranda .btn-get-started-b:hover {
   background: #EFCFA0;
   color: #532200;
   text-decoration: none;
 }
 
 @media (min-width: 1024px) {
-  #hero p {
+  #beranda p {
     width: 60%;
   }
 
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
+  #beranda .carousel-control-prev,
+  #beranda .carousel-control-next {
     width: 5%;
   }
 }
 
 @media (max-width: 768px) {
-  #hero .carousel-container {
+  #beranda .carousel-container {
     height: 90vh;
   }
 
-  #hero h2 {
+  #beranda h2 {
     font-size: 28px;
   }
 }
