@@ -766,6 +766,20 @@ section {
   margin-bottom: 0;
 }
 
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Sesuaikan ukuran */
+  gap: 20px; /* Spasi antar elemen */
+}
+
+.portfolio-item {
+  display: block; /* Default tampilan elemen */
+}
+
+.portfolio-item.hidden {
+  display: none !important; /* Pastikan elemen tersembunyi tidak terlihat */
+}
+
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;

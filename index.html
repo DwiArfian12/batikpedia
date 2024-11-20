@@ -162,6 +162,15 @@
           <h2>WAWASAN</h2>
           <p>Ragam Jenis & Motif Batik</p>
         </div>
+        <div class="search-bar">
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Cari batik berdasarkan nama atau asal kota..." 
+            onkeyup="filterPortfolio()" 
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;"
+          >
+        </div>
         <div class="row portfolio-container" data-aos="fade-up">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/megamendung.png" class="img-fluid" alt=""></div>
@@ -313,7 +322,7 @@
             </div>
           </div>
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form name="submit-to-google-sheet" id="contactForm" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" required>
@@ -323,17 +332,17 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Judul Pesan" required>
+                <input type="text" class="form-control" name="title" id="title" placeholder="Judul Pesan" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Ide, pesan, masukan, kritik, atau saran Anda" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Ide, pesan, masukan, kritik, atau saran Anda" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Pesan Anda terkirim. Terima kasih!</div>
               </div>
-              <div class="text-center"><button type="submit">Kirim Pesan</button></div>
+              <div class="text-center"><button type="submit" id="sendMessageButton">Kirim Pesan</button></div>
             </form>
           </div>
         </div>
