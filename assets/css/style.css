@@ -768,16 +768,16 @@ section {
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Sesuaikan ukuran */
-  gap: 20px; /* Spasi antar elemen */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .portfolio-item {
-  display: block; /* Default tampilan elemen */
+  display: block;
 }
 
 .portfolio-item.hidden {
-  display: none !important; /* Pastikan elemen tersembunyi tidak terlihat */
+  display: none !important;
 }
 
 .portfolio #portfolio-flters {

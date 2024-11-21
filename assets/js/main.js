@@ -155,7 +155,6 @@
             item.style.display = 'none';
           }
         });
-  
 
         portfolioIsotope.arrange();
       });
